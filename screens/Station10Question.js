@@ -23,13 +23,6 @@ export default class Station10QuestionScreen extends React.Component {
         };
     };
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            chosenAnswerStation1: AnswerSheet.getAnswer(1), // read out the given answer of the answersheet file to be able to show the chosen button in another design
-        };
-    };
-
     render() {
         return (
             <View style={styles.anyWholeScreen}>

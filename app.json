@@ -13,7 +13,7 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "splash": {
-      "image": "./assets/images/c.png",
+      "image": "./assets/images/iconBadgerFox.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,14 +28,7 @@
       "bundleIdentifier": "co.MuseoNacional.Accesible"
     },
     "android": {
-      "package": "co.MuseoNacional.Accesible",
-      "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
-      "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
-    },
-    "isDetached": true,
-    "detach": {
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.9.2-sdk31.0.0-f0c63b44-0556-45f2-b4b9-ff5082f9ef72.tar.gz"
-    },
-    "scheme": "exp17bb70f443454a18b5ae988e59236c4a"
+      "package": "co.MuseoNacional.Accesible"
+    }
   }
 }
